@@ -1,0 +1,89 @@
+/*background-image = imagen de fondo*/
+/*background-size = tamaño del fondo*/
+/*height =altura*/
+/*font-family = es el estilo de la letra*/
+/*align-content =alinear contenido*/
+/*margin-top =margen superior*/
+/*margin-bottom =margen inferior*/
+/*margin-left =margen izquierdo*/
+/*width =ancho*/
+/*background-color =color de fondo*/
+/*border-color=color del borde*/
+/*border=borde*/
+/*color=color de la letra o etc...*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('../img/fondo1.jpeg');
+background-size: cover;
+
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+
+height: 100%;
+align-content: center;
+}
+
+.card{
+ 
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgb(0, 0, 0) !important;
+border-color: red;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: rgb(201, 48, 48);
+color: rgb(3, 3, 3);
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+
+.login_btn{
+color: rgb(255, 255, 255);
+background-color: rgb(201, 48, 48);
+width: 100px;
+}
+
+.login_btn:hover{
+color: rgb(255, 255, 255);
+background-color: rgb(117, 31, 31);
+}
+
+.links{
+color: rgb(255, 255, 255);
+}
+
+.links a{
+margin-left: 4px;
+}
+.card-header h3{
+  color: white;
+  }
+

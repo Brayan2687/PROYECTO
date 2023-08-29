@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREACIONES ELITH</title>
+   
+</head>
+<body>
+
+
+
+
+<center>
+
+    <div class="form-header">
+      <h1>INSERTAR UN NUEVO PRODUCTO</h1>
+    </div>
+    <div class="form-content">
+      <form  action='../../controladores/controladorProducto.php' method='POST'>
+
+          <label >NOMBRE DEL PRODUCTO       </label>
+          <input  type="text" required="required" name="producto"/>
+          <br>
+
+ 
+          <label >PRECIO DEL PRODUCTO       </label>
+          <input  type="number" required="required" name="precio"/>
+          <br>
+
+
+          <label>DESCRIPCION PRODUCTO       </label>
+          </label><textarea name="descripcion" required="required" cols="30" rows="5" ></textarea>
+          <br>
+
+          <input type="submit" value="Save">
+
+        </div>
+
+
+      </form>
+
+ 
+</center>
+<script src="../../Assets/java/java.js"></script>
+</body>
+
+</html>
